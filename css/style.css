@@ -12,17 +12,35 @@
   justify-content: space-between;
 }
 .header_burger {
-  margin-top: 18px;
   align-items: center;
   display: flex;
 }
 .header_search {
   display: flex;
+  margin-right: 10px;
 }
-.header-ad {
-  margin-left: 964px;
+.header_ad {
+  border: solid #BCBFC2 3px;
   width: 60px;
   height: 41px;
+}
+.header-add {
+  margin-left: 10px;
+}
+.header_sign-in {
+  margin-left: 25px;
+}
+.header-hero_logo {
+  margin: auto;
+  display: flex;
+}
+
+.sign-in {
+  padding: 10px;
+}
+
+.three-months {
+  color: #939699;
 }
 
 .left_side, .right_side {
@@ -31,10 +49,10 @@
   align-items: center;
 }
 
-.section {
+.sections {
   font-size: 14px;
   margin-left: 16px;
-  margin-top: 15px;
+  margin-right: 16px;
 }
 
 .line {
@@ -45,10 +63,34 @@
 
 .search {
   font-size: 14px;
+  color: #939699;
 }
 
 .line_2 {
   width: 1140px;
   border-bottom: 1px solid #D9DADB;
   margin: auto;
+}
+
+.header-hero {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-hero_statue {
+  margin-left: 37px;
+  align-items: center;
+}
+.header-hero-hero_adress {
+  font-size: 14px;
+}
+.header-hero_logo {
+  color: #262D33;
+  font-size: 34px;
+}
+.header-hero-hero_date {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
