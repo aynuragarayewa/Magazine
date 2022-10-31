@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   max-width: 1140px;
   margin: auto;
@@ -6,12 +12,12 @@
   justify-content: space-between;
 }
 .header_burger {
-  margin-left: 114px;
   margin-top: 18px;
+  align-items: center;
+  display: flex;
 }
 .header_search {
   display: flex;
-  margin-left: 26.3px;
 }
 .header-ad {
   margin-left: 964px;
@@ -31,19 +37,18 @@
   margin-top: 15px;
 }
 
-.line{
+.line {
   height: 50px;
   border-right: 1px solid #D9DADB;
   margin-right: 48px;
 }
 
+.search {
+  font-size: 14px;
+}
 
 .line_2 {
   width: 1140px;
   border-bottom: 1px solid #D9DADB;
   margin: auto;
-}
-
-.search {
-  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
