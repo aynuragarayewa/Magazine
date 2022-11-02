@@ -117,6 +117,22 @@
   margin: auto;
 }
 
-.container {
-  background-color: #262D33;
+.recommend {
+  background-image: url(../img/Group-2.png);
+  height: 570px;
+}
+.recommend__main {
+  background-image: url(../img/image.png);
+  height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_ad-box {
+  display: flex;
+  background-color: #30363D;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
