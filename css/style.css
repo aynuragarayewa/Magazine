@@ -121,16 +121,24 @@
   background-image: url(../img/Group-2.png);
   height: 570px;
 }
+.recommend__container {
+  display: flex;
+  max-width: 1140px;
+  margin: auto;
+}
 .recommend__main {
   height: 570px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 877px;
-  margin-left: 185px;
   background-image: url(../img/Image.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 55px;
 }
 .recommend__texts {
-  background-image: url(../img/Rectangle-8);
+  background-color: #ffffff;
+  width: 263px;
 }
 .recommend__main-profileimg {
   margin-top: 55px;
