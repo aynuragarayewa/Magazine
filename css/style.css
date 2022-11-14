@@ -131,7 +131,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 877px;
-  background-image: url(../img/Image.png);
+  background-image: url(../img/backgroubnd.png);
   display: flex;
   justify-content: space-between;
   padding: 55px;
@@ -167,6 +167,10 @@
 }
 .recommend__main-svg {
   margin-top: 55px;
+}
+.recommend__main-svg {
+  display: flex;
+  margin-top: 45px;
 }
 
 .recommend__main-img {
