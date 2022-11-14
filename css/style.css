@@ -136,13 +136,16 @@
   justify-content: space-between;
   padding: 55px;
 }
-.recommend__texts {
-  background-color: #ffffff;
-  width: 263px;
-}
 .recommend__main-profileimg {
   margin-top: 55px;
   margin-left: 55px;
+}
+.recommend__main-svg {
+  margin-right: 30px;
+}
+.recommend__texts {
+  background-color: #ffffff;
+  width: 263px;
 }
 .recommend__main-author {
   display: flex;
@@ -165,16 +168,27 @@
   display: flex;
   margin-top: 25px;
 }
-.recommend__main-svg {
-  margin-top: 55px;
-}
-.recommend__main-svg {
+.recommend__main-downside {
   display: flex;
   margin-top: 45px;
+  align-items: center;
 }
-
-.recommend__main-img {
-  margin-top: 30px;
+.recommend__main-play {
+  margin-left: 30px;
+  display: flex;
+}
+.recommend__main-playsvg {
+  color: White;
+  font-size: 14px;
+  padding: 10px;
+}
+.recommend__texts-title {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.recommend__texts-titleline {
+  border: 1px solid #939699;
 }
 
 .ad-box {
