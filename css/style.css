@@ -188,7 +188,11 @@
   align-items: center;
 }
 .recommend__texts-titleline {
-  border: 1px solid #939699;
+  border: 1px solid #4B5157;
+}
+.recommend__texts-food {
+  color: #3BBDC4;
+  padding: 20px;
 }
 
 .ad-box {
