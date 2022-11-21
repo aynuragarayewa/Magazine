@@ -412,9 +412,22 @@
 
 .banner__svg {
   display: flex;
-  justify-content: center;
+  align-items: center;
   margin: auto;
+}
+
+.banner__title2 {
+  display: flex;
+  justify-content: center;
+  color: White;
+  font-size: 40px;
+  margin: auto;
+}
+
+.left__box {
+  display: flex;
+  flex-direction: column;
+  max-width: 848px;
   padding-top: 60px;
-  padding-left: 356px;
-  padding-right: 356px;
+  padding-bottom: 60px;
 }/*# sourceMappingURL=style.css.map */
