@@ -1,7 +1,49 @@
-.cars__container
-    height: 550px
-    max-width: 370px
-    font-family: 'Lato', sans-serif
-    display: flex
-    background-color: White
+.grid-container
+    display: grid
+    max-width: 1140px
+    height: 770px
+    margin: auto
+    border: 1px solid #FF0000
+    background-color: #fff
+    grid-template: repeat(4,1fr) / repeat(3,1fr)
+    grid-template-areas: 
+    "cars cars  art-design columns"
+    "cat coffee manufacture columns"
+    "cat world lemon columns"
     
+
+.cars
+    background-image: url(../img/car.png)
+    background-repeat: no repeat
+    background-position: right
+    grid-area: cars
+
+.cars-texts
+    max-width: 238px
+
+.cars-line
+    border-bottom: 1px solid #000
+
+.cars-comments
+    display: flex
+    flex-direction: row
+    align-items: center
+
+.art-design
+    grid-area: art-design
+    background-image: url(../img/Hand.png)
+    background-repeat: no repeat
+    background-size: cover
+
+.columns
+    grid-area: columns
+.cats
+    grid-area: cats
+.coffee
+    grid-area: coffee
+.manufacture
+    grid-area: manufacture
+.world
+    grid-area: world
+.lemon
+    grid-area: lemon
