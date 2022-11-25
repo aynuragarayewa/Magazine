@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    max-width: 1140px;
+    height: 770px;
+    margin: auto;
+    border: 1px solid #FF0000;
+    background-color: #fff;
+    grid-template: repeat(4,1fr) / repeat(3,1fr);
+    gap: 30px;
+    grid-template-areas: 
+    "cars cars  art-design columns"
+    "cat coffee manufacture columns"
+    "cat world lemon columns";
+}
+    
