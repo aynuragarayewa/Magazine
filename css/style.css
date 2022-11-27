@@ -214,6 +214,7 @@
   display: flex;
   padding-right: 25px;
   padding-left: 25px;
+  font-size: 14px;
 }
 .recommend__texts-4food {
   display: flex;
@@ -222,6 +223,7 @@
   padding-right: 25px;
   padding-bottom: 19px;
   margin: auto;
+  font-size: 14px;
 }
 .recommend__texts-foodline {
   border: 1px solid #4B5157;
@@ -238,6 +240,7 @@
   padding-right: 25px;
   padding-left: 25px;
   padding-bottom: 19px;
+  font-size: 14px;
 }
 .recommend__texts-carsline {
   border: 1px solid #4B5157;
@@ -254,6 +257,7 @@
   padding-right: 25px;
   padding-left: 25px;
   padding-bottom: 19px;
+  font-size: 14px;
 }
 .recommend__texts-moviesline {
   border: 1px solid #4B5157;
@@ -269,6 +273,7 @@
   display: flex;
   padding-right: 25px;
   padding-left: 25px;
+  font-size: 14px;
 }
 .recommend__texts-4nfl {
   display: flex;
@@ -277,6 +282,7 @@
   padding-right: 25px;
   padding-bottom: 19px;
   margin: auto;
+  font-size: 14px;
 }
 .recommend__texts-nflline {
   border: 1px solid #4B5157;
@@ -292,7 +298,8 @@
   display: flex;
   padding-right: 25px;
   padding-left: 25px;
-  padding-bottom: 19px;
+  padding-bottom: 28px;
+  font-size: 14px;
 }
 .recommend__texts-techline {
   border: 1px solid #4B5157;
@@ -404,14 +411,26 @@
   flex-direction: column;
 }
 .cars-title {
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   color: #6e99ae;
+  font-family: "Lato", sans-serif;
 }
 .cars-article {
   font-size: 25px;
+  width: 213px;
 }
 .cars-line {
   border: 1px solid;
+  color: #939699;
+}
+.cars-text {
+  width: 228px;
+  font-family: "Lato", sans-serif;
+}
+.cars-commentnumber {
+  margin-left: 5px;
+  font-family: "Lato", sans-serif;
 }
 .cars-comment {
   display: flex;
@@ -423,6 +442,12 @@
 .cars-avatarname {
   margin-left: 10px;
   margin-right: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.cars-texts {
+  max-width: 203px;
+  padding: 25px;
 }
 
 .art-design {
@@ -431,9 +456,24 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.cars-texts {
-  max-width: 203px;
+.art-design-texts {
+  display: flex;
+  padding-left: 25px;
+  flex-direction: column;
+}
+.art-design-title {
+  padding-top: 160px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.art-design-article {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 10px;
+}
+.art-design--comments {
+  display: flex;
   padding: 25px;
 }
 
