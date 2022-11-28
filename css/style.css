@@ -172,6 +172,7 @@
   color: #ffffff;
   display: flex;
   margin-top: 25px;
+  font-family: "Roboto Slab", serif;
 }
 .recommend__main-downside {
   font-family: "Lato", sans-serif;
@@ -465,16 +466,19 @@
   padding-top: 160px;
   font-family: "Lato", sans-serif;
   font-size: 12px;
-  color: #fff;
+  color: #E7D9FF;
 }
 .art-design-article {
   text-transform: uppercase;
   font-size: 16px;
   padding-top: 10px;
+  color: #fff;
 }
-.art-design--comments {
-  display: flex;
+.art-design-comments {
   padding: 25px;
+}
+.art-design-dates {
+  display: flex;
 }
 
 .columns {
@@ -507,25 +511,65 @@
   border: 1px solid #eee;
 }
 
-.cats {
+.cat {
   grid-area: cats;
   background-image: url(../img/019.png);
+}
+.cat-title {
+  padding-left: 25px;
+  padding-top: 290px;
 }
 
 .coffee {
   grid-area: coffee;
 }
+.coffee-1 {
+  padding: 25px;
+}
+.coffee-text {
+  font-family: "Lato", sans-serif;
+}
+.coffee-date {
+  font-family: "Lato", sans-serif;
+}
 
 .manufacture {
   grid-area: manufacture;
+}
+.manufacture-1 {
+  padding: 25px;
+}
+.manufacture-text {
+  font-family: "Lato", sans-serif;
+}
+.manufacture-date {
+  font-family: "Lato", sans-serif;
 }
 
 .world {
   grid-area: world;
 }
+.world-1 {
+  padding: 25px;
+}
+.world-text {
+  font-family: "Lato", sans-serif;
+}
+.world-date {
+  font-family: "Lato", sans-serif;
+}
 
 .lemon {
   grid-area: lemon;
+}
+.lemon-1 {
+  padding: 25px;
+}
+.lemon-text {
+  font-family: "Lato", sans-serif;
+}
+.lemon-date {
+  font-family: "Lato", sans-serif;
 }
 
 .banner {
@@ -558,10 +602,15 @@
   margin: auto;
 }
 
-.left__box {
+.add__box {
+  max-width: 1140px;
   display: flex;
-  flex-direction: column;
-  max-width: 848px;
+  margin: auto;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.add__box-left {
+  width: 848px;
+  padding-right: 29px;
 }/*# sourceMappingURL=style.css.map */

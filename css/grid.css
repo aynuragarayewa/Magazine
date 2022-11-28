@@ -9,7 +9,7 @@
     gap: 30px;
     grid-template-areas: 
     "cars cars  art-design columns"
-    "cat coffee manufacture columns"
-    "cat world lemon columns";
+    "cats coffee manufacture columns"
+    "cats world lemon columns";
 }
     
