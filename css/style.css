@@ -535,12 +535,20 @@
 .coffee-date {
   font-family: "Lato", sans-serif;
 }
+.coffee-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
 
 .manufacture {
   grid-area: manufacture;
 }
 .manufacture-1 {
   padding: 25px;
+}
+.manufacture-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
 }
 .manufacture-text {
   font-family: "Lato", sans-serif;
@@ -561,6 +569,10 @@
 .world-date {
   font-family: "Lato", sans-serif;
 }
+.world-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
 
 .lemon {
   grid-area: lemon;
@@ -573,6 +585,10 @@
 }
 .lemon-date {
   font-family: "Lato", sans-serif;
+}
+.lemon-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
 }
 
 .banner {
