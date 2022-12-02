@@ -1062,4 +1062,236 @@
 .right__box-22line {
   padding-left: 97px;
   font-weight: bold;
+}
+
+.container3 {
+  background-color: #262D33;
+  display: flex;
+}
+
+.container3__main {
+  height: 570px;
+  width: 555px;
+  background-image: url(../img/background.png);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__container {
+  display: flex;
+  margin: auto;
+}
+
+.footer__headline {
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+}
+
+.footer__headline-title {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 40px;
+  padding-top: 60px;
+  font-weight: bold;
+}
+
+.footer__headline-email {
+  display: flex;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.email {
+  width: 313px;
+  padding-right: 10px;
+}
+
+.footer__container-rows {
+  flex-direction: row;
+  padding-top: 100px;
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 65px;
+}
+
+.footer__news-title {
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.footer__art-title {
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.footer__travel-title {
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.footer__sports-title {
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.footer__tech-title {
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.footer__moneys-title {
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+.footer__moneys-1 {
+  padding-bottom: 15px;
+}
+.footer__moneys-2 {
+  padding-bottom: 15px;
+}
+.footer__moneys-3 {
+  padding-bottom: 15px;
+}
+.footer__moneys-4 {
+  padding-bottom: 15px;
+}
+.footer__moneys-5 {
+  padding-bottom: 15px;
+}
+
+.footer__news-1 {
+  padding-bottom: 15px;
+}
+.footer__news-2 {
+  padding-bottom: 15px;
+}
+.footer__news-3 {
+  padding-bottom: 15px;
+}
+.footer__news-4 {
+  padding-bottom: 15px;
+}
+.footer__news-5 {
+  padding-bottom: 15px;
+}
+
+.footer__art-1 {
+  padding-bottom: 15px;
+}
+.footer__art-2 {
+  padding-bottom: 15px;
+}
+.footer__art-3 {
+  padding-bottom: 15px;
+}
+.footer__art-4 {
+  padding-bottom: 15px;
+}
+.footer__art-5 {
+  padding-bottom: 15px;
+}
+
+.footer__travel-1 {
+  padding-bottom: 15px;
+}
+.footer__travel-2 {
+  padding-bottom: 15px;
+}
+.footer__travel-3 {
+  padding-bottom: 15px;
+}
+.footer__travel-4 {
+  padding-bottom: 15px;
+}
+.footer__travel-5 {
+  padding-bottom: 15px;
+}
+
+.footer__sports-1 {
+  padding-bottom: 15px;
+}
+.footer__sports-2 {
+  padding-bottom: 15px;
+}
+.footer__sports-3 {
+  padding-bottom: 15px;
+}
+.footer__sports-4 {
+  padding-bottom: 15px;
+}
+.footer__sports-5 {
+  padding-bottom: 15px;
+}
+
+.footer__tech-1 {
+  padding-bottom: 15px;
+}
+.footer__tech-2 {
+  padding-bottom: 15px;
+}
+.footer__tech-3 {
+  padding-bottom: 15px;
+}
+.footer__tech-4 {
+  padding-bottom: 15px;
+}
+.footer__tech-5 {
+  padding-bottom: 15px;
+}
+
+.footer__container-divider {
+  display: flex;
+  margin: auto;
+  width: 1140px;
+  padding-top: 40px;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 40px;
+}
+
+.footer__dividerline {
+  border: 1px solid;
+  color: #939699;
+}
+
+.footer__divider-options {
+  display: flex;
+  align-items: center;
+}
+
+.footer__divider-logo {
+  padding-right: 30px;
+}
+
+.footer__divider-options1 {
+  padding-right: 30px;
+}
+
+.footer__divider-socials {
+  display: flex;
+  padding-left: 310px;
+}
+
+.footer__divider-socials1 {
+  padding-left: 15px;
+}
+
+.footer__container-divider2 {
+  border: 1px solid;
+  color: #939699;
+}
+
+.footer__container-bottom {
+  max-width: 1140px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
