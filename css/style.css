@@ -488,6 +488,7 @@
   grid-area: columns;
   background-color: #6E99AE;
   max-width: 263px;
+  color: #fff;
 }
 .columns-1title {
   padding: 20px;
@@ -499,6 +500,7 @@
   padding-left: 25px;
   background-image: url(../img/Quote.svg);
   background-repeat: no-repeat;
+  padding-top: 30px;
 }
 .columns-1quote {
   margin-top: 35px;
@@ -511,6 +513,9 @@
   background-image: url(../img/Quote.svg);
   background-repeat: no-repeat;
 }
+.columns-2line {
+  border: 1px solid;
+}
 .columns-3texts {
   padding-left: 25px;
   background-image: url(../img/Quote.svg);
@@ -519,10 +524,57 @@
 .columns-4line {
   border: 1px solid #eee;
 }
+.columns-2text {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  width: 200px;
+  padding-top: 45px;
+}
+.columns-3text {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  width: 200px;
+  padding-top: 45px;
+}
+
+.columns-1 {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 43px;
+}
+
+.columns-1text {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  width: 200px;
+}
+
+.columns-2 {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 43px;
+}
+
+.columns-3line {
+  border: 1px solid;
+}
+
+.columns-3 {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 43px;
+}
 
 .cat {
   grid-area: cats;
   background-image: url(../img/019.png);
+  background-repeat: no-repeat;
 }
 .cat-title {
   padding-left: 25px;
@@ -1075,6 +1127,15 @@
   display: flex;
 }
 
+.container3__left-side {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container3__3 {
+  padding-top: 30px;
+}
+
 .container3__main {
   height: 570px;
   width: 555px;
@@ -1411,4 +1472,11 @@
 .footer__container-bottom {
   max-width: 1140px;
   margin: auto;
+  display: flex;
+  height: 135px;
+  padding-top: 40px;
+}
+
+.footer__bottom-text {
+  padding-right: 130px;
 }/*# sourceMappingURL=style.css.map */
